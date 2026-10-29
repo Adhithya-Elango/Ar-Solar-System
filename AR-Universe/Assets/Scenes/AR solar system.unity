@@ -1379,6 +1379,7 @@ GameObject:
   - component: {fileID: 1320560829}
   - component: {fileID: 1320560828}
   - component: {fileID: 1320560827}
+  - component: {fileID: 1320560832}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1482,6 +1483,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1320560832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320560826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fcfa61765c52546be1f521a6e81a22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetariumCamera: {fileID: 1781676421}
+  focusDistance: 0.5
+  displayScale: {x: 0.1, y: 0.1, z: 0.1}
+  rotationSpeed: 20
+  solarSystemRoot: {fileID: 150969470}
 --- !u!1 &1419889318 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5969755633927489863, guid: 1da3153350954424f8b617963a3d9a11, type: 3}
@@ -1670,6 +1688,138 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Home
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: FocusOnPlanet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: FocusOnPlanet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1642884064}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: FocusOnPlanet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1265944250}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: FocusOnPlanet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1242844568}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: FocusOnPlanet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1923481289}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: FocusOnPlanet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 386066512}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: FocusOnPlanet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1419889318}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: FocusOnPlanet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1592555671}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: FocusOnPlanet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1076379104}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: FocusOnPlanet
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 34043048}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1320560832}
+        m_TargetAssemblyTypeName: PlanetariumFocusController, Assembly-CSharp
+        m_MethodName: ExitPlanetarium
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1474297494
